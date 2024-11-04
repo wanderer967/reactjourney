@@ -2,7 +2,7 @@ import Hello from "./components/Hello"
 function App() {
   return (
     <div className="App">
-      <Hello name="Rob" message="Hi there!" emoji="👋👋👋" />
+      <Hello name="Kelly" message="Hi there Boy!" emoji="👋👋👋" />
     </div>
   );
 }
