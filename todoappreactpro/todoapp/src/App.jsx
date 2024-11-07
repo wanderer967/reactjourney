@@ -1,9 +1,11 @@
+import InLineComponent from "./components/InLineComponent";
 import Todo from "./components/todo";
 
 function App() {
   return (
     <div className="App">
-      <Todo />
+      {/* <Todo /> */}
+      <InLineComponent />
     </div>
   );
 }
