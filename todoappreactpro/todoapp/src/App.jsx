@@ -1,13 +1,12 @@
-import InLineComponent from "./components/InLineComponent";
-import OutLineComponent from "./components/OutLineComponent";
+import Header from "./components/Header";
 import Todo from "./components/todo";
+import style from "./App.css";
 
 function App() {
   return (
     <div className="App">
-      {/* <Todo /> */}
-      <InLineComponent />
-      <OutLineComponent />
+      <Header />
+      <Todo />
     </div>
   );
 }
