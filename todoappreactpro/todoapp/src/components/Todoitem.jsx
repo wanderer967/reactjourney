@@ -7,7 +7,7 @@ export default function Todoitem({ item, todos, setTodos }) {
   return (
     <div className={styles.item}>
       <div className={styles.itemName}>
-        {item}
+        {item.name}
         <span className={styles.delete}>
           <button onClick={() => handleDelete(item)}>x</button>
         </span>
